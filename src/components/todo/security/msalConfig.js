@@ -1,6 +1,6 @@
 export const msalConfig = {
     auth: {
-      clientId: '5af04bb2-f6f5-48fb-a9a7-19306e1ca73b', // This is the ONLY mandatory field that you need to supply.
+      clientId: 'c9c3a42e-90e3-4e1c-9e98-2b819041a729', // This is the ONLY mandatory field that you need to supply.
       authority: 'https://jatinbalar1.b2clogin.com/jatinbalar1.onmicrosoft.com/b2c_1_susi', // Choose SUSI as your default authority.
       knownAuthorities: ['jatinbalar1.b2clogin.com'], // Mark your B2C tenant's domain as trusted.
       redirectUri: 'https://jatinbalar.azurewebsites.net', // You must register this URI on Azure Portal/App Registration. Defaults to window.location.origin
